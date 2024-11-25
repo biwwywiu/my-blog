@@ -13,7 +13,7 @@ export default defineConfig({
   // site: themeConfig.site.website,
   site: 'https://biwwywiu.github.io/',
   prefetch: true,
-  base: 'my-blog',
+  base: '/',
   markdown: {
     remarkPlugins: [
       remarkMath,
