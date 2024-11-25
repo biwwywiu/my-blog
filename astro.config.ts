@@ -10,9 +10,10 @@ import { themeConfig } from './src/.config'
 
 // https://astro.build/config
 export default defineConfig({
-  site: themeConfig.site.website,
+  // site: themeConfig.site.website,
+  site: 'https://biwwywiu.github.io/',
   prefetch: true,
-  base: '/',
+  base: 'my-blog',
   markdown: {
     remarkPlugins: [
       remarkMath,
